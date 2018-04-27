@@ -31,5 +31,4 @@ require (
 	mvdan.cc/sh v2.5.0+incompatible
 )
 
-// branch: go1.11
-replace github.com/gopherjs/gopherjs => github.com/myitcv/gopherjs v0.0.0-20180901025010-55c28f202f5a
+replace github.com/gopherjs/gopherjs => github.com/myitcv/gopherjs v0.0.0-20181024142545-7a8dc4c3b580
