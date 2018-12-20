@@ -184,7 +184,7 @@ func main() {
 								fatalf("failed to run %v: %v\n%s", strings.Join(cmd.Args, " "), err, out)
 							}
 
-							verbosef("%v iteration %v (%.2fms)\n", strings.Join(cmd.Args, " "), gs.count, time.Now().Sub(pre).Seconds()*1000)
+							verbosef("%v iteration %v (%.2fms)\n%s", strings.Join(cmd.Args, " "), gs.count, time.Now().Sub(pre).Seconds()*1000, out)
 							done <- g
 						}()
 					} else {
